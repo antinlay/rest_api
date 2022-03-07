@@ -3,7 +3,7 @@ const mongo = require("mongodb").MongoClient
 
 const app = express()
 
-app.post("/guest", (req< res) => {
+app.post("/guest", (req, res) => {
   /* */
 })
 app.get("/guests", (req, res) => {
